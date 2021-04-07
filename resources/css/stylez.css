@@ -42,7 +42,7 @@ html {scroll-behavior: smooth;}
 	white-space: nowrap;
 }
 
-.col span-1-of-4 box {
+#features p {
 	text-align: justify;	
 }
 
