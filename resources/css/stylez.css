@@ -42,6 +42,11 @@ html {scroll-behavior: smooth;}
 	white-space: nowrap;
 }
 
+.col span-1-of-4 box {
+	display: inline-block;	
+}
+
+
 .row {
 	max-width: 1140px;  
 	margin: 0 auto; 
