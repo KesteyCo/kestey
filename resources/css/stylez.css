@@ -38,6 +38,10 @@ html {scroll-behavior: smooth;}
 	visibility: hidden;
 }
 
+#restocking {
+	white-space: nowrap;
+}
+
 .row {
 	max-width: 1140px;  
 	margin: 0 auto; 
