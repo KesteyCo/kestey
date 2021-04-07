@@ -40,6 +40,7 @@ html {scroll-behavior: smooth;}
 
 #restocking {
 	white-space: nowrap;
+	display: inline-block;
 }
 
 .row {
