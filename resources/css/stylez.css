@@ -43,7 +43,7 @@ html {scroll-behavior: smooth;}
 }
 
 .col span-1-of-4 box {
-	display: inline-block;	
+	display: block;	
 }
 
 
