@@ -58,13 +58,17 @@ html {scroll-behavior: smooth;}
 
 .dark-mode a:link,
 a:visited {
-	color: #98ff98 !important;
-	border-bottom: #98ff98 !important;
+	color: #98ff98;
+	text-decoration: none;
+	border-bottom: 1px solid #98ff98;
+	padding-bottom: 1px;
+	transition: border-bottom 0.2s, color 0.2s
 }
 
-.dark-mode a:hover {
-	color: #2F462F;
-	border-bottom: #2F462F;
+.dark-mode a:hover,
+a:active {
+	color: #555;
+	border-bottom: 1px solid transparent;
 }
 
 .dark-mode .popup:hover {
