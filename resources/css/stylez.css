@@ -56,8 +56,7 @@ html {scroll-behavior: smooth;}
 }
 
 
-.dark-mode a:link,
-a:visited {
+.dark-mode a {
 	color: #98ff98;
 	border-bottom: #98ff98;
 }
