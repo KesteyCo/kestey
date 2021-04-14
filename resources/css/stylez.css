@@ -206,9 +206,9 @@ h3 {
    ===================================*/
 a:link,
 a:visited {
-	color: #2F462F;
+	color: #2F462F !important;
 	text-decoration: none;
-	border-bottom: 1px solid #2F462F;
+	border-bottom: 1px solid #2F462F !important;
 	padding-bottom: 1px;
 	transition: border-bottom 0.2s, color 0.2s
 }
