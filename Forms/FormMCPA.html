@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Shop for virtual products at a relatively cheap price, buy and sell your goods, and post your thoughts and ideas, here at kestey">
+	<link rel="stylesheet" type="text/css" href="node_modules/normalize.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="ionicons.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylez.css">
+	<link rel="stylesheet" type="text/css" href="queries.css">
+	<!--
+	<link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon3.ico" />
+ -->
+ 	<link rel="apple-touch-icon" sizes="180x180" href="kestey-main/resources/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="kestey-main/resources/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="kestey-main/resources/img/favicon-16x16.png">
+	<link rel="manifest" href="kestey-main/resources/img/site.webmanifest">
+
+	<title>Kestey</title>
+</head>
+<body>
+    
+
+        <nav class="sticky">
+            <div class="row"> <!-- Keep within 1140px width -->
+                <a href="#"><img src="logo.png" alt="kestey Logo" class="logo"></a>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a> <!-- No href -->
+            </div>
+        </nav>
+	<section id="order">
+            <div class="row">
+                <h2>The Development Comittee's Entry Form</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="https://formsubmit.co/kesstey101@gmail.com" class="contact-form" netlify>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="First Last" required="">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="highschool">High school</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="highschool" id="highschool" placeholder="Your High school" required="">
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="class">Fields of knowledge/ Interest</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="fields" id="fields" placeholder="exmpl: Web, mobile, games, ML, robotics..etc" required="">
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Availability">Availability</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="1to5" id="starf">
+                            <option id="starf" value="1">&starf;</option> 
+                                <option id="starf" value="2" selected="">&starf;&starf;</option>
+                                <option id="starf" id="starf" id="starf" value="3" selected="">&starf;&starf;&starf;</option> 
+                                <option id="starf" id="starf" value="4" selected="">&starf;&starf;&starf;&starf;</option> 
+                                <option id="starf" value="5" selected="">&starf;&starf;&starf;&starf;&starf;</option> 
+                            </select>
+                        </div>
+
+                    </div>
+                    
+                    <!--
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                            <option value="Friends">Friends</option>
+                            	<option value="Posters" selected="">Posters</option>
+                                <option value="Social media" selected="">Social media</option> 
+                                <option value="Other">Other (Please include in the message tab)</option>
+                            </select>
+                        </div>
+                    </div>
+                -->
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Can you help us build the club's website?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="Yes" id="news" placeholder="#" checked=""> Yes <span> |</span>
+                            <input type="checkbox" name="No" id="news" placeholder="#" checked="">  No, but I can help with future projects! <span> |</span>
+                        </div>
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Tell us about the programming languages you learned and your experiences. <br> We are not looking for skilled developers but for people with enough knowledge to help build projects.</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Feel free to add any necessary information."></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" href="#" value="Send it!"> 
+                        </div>
+                    </div>
+                    
+                </form>
+            
+            </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+
+        $(function()
+        {
+          $(".js-example-basic-multiple").select2();
+        });
+        </script>
+    <button onclick="darkmode()" id="myBtn" title="Go to top" class="ion-ios-lightbulb"></button>
+    <script>
+    function darkmode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    }
+    </script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script> <!-- Sticky nav -->
+    <!--
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="vendors/js/gmaps.js"></script>
+ -->
+    <script>
+        // When the user clicks on div, open the popup
+    function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+    }
+    </script>
+    <!-- Begin of Chaport Live Chat code -->
+    <script type="text/javascript">
+    (function(w,d,v3){
+    w.chaportConfig = {
+    appId : '605742c2e8909463540ef9d0'
+    };
+
+    if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
+    </script>
+</body>
+</html>
