@@ -438,7 +438,9 @@ header {
 .meal-photo {
 	width: 100%;
 	overflow: hidden;
-	background-color: #fff; 
+	/*
+	background-color: #fff;
+	*/
 }
 
 .meal-photo img {
