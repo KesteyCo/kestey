@@ -28,7 +28,7 @@ body {
 html {scroll-behavior: smooth;}
 
 .dark-mode {
-  background-color: black;
+  background-color: #131313;
   color: white;
 }
 
