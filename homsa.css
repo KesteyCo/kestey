@@ -14,10 +14,12 @@ p {
   font-family: arial;
   opacity: 0.4;
 }
+body {
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(chickpeas.jpg);
+}
 body h1 {
   font-size: 230%;
 }
 #smol{
     font-size: 110%;
-
 }
